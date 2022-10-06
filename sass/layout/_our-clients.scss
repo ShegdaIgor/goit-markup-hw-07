@@ -1,0 +1,42 @@
+.our-clients-section {
+    background-color: var(--header-color);
+}
+
+.our-clients-section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.our-clients-section-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.our-clients-section-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    background-color: var(--header-color);
+    transition: border var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+    }
+}
+
+.our-clients-section-icon {
+    fill: #afb1b8;
+    transition: fill var(--transition-dur-and-func);
+
+    .our-clients-section-list-link:hover &,
+    .our-clients-section-list-link:focus & {
+        fill: var(--accent-color);
+    }
+}
