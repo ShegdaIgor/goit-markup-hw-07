@@ -6,55 +6,52 @@
 
     /* background-color: var(--footer-color); */
     /* outline: 2px solid tomato; */
-}
 
-.hero-section__background {
-    max-width: 1600px;
-    background-position: 50% 50%;
-    background-color: #c4c4c4;
-    background-image: linear-gradient(
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)
-        ),
-        url("../images/hero-photo.jpg");
-}
+    &__background {
+        max-width: 1600px;
+        background-position: 50% 50%;
+        background-color: #c4c4c4;
+        background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+            ),
+            url("../images/hero-photo.jpg");
+    }
 
-.hero-section__container {
-    padding-bottom: 200px;
-    padding-top: 200px;
-}
+    &__container {
+        padding-bottom: 200px;
+        padding-top: 200px;
+    }
 
-.hero-section__title {
-    /* геометрия */
-    width: 610px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    .title {
+        width: 610px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
 
-    color: var(--header-color);
-    /* background-color: var(--footer-color); */
+        color: var(--header-color);
+        /* background-color: var(--footer-color); */
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
 
-    /* динамика */
-}
+    .button {
+        align-self: center;
+        min-width: 216px;
+        padding: 10px 32px;
+        border: none;
+        border-radius: 6px;
 
-.hero-section__button {
-    align-self: center;
-    min-width: 216px;
-    padding: 10px 32px;
-    border: none;
-    border-radius: 6px;
-
-    color: var(--header-color);
-    background-color: var(--accent-color);
-    font-family: var(--primary-font);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
+        color: var(--header-color);
+        background-color: var(--accent-color);
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+    }
 }
