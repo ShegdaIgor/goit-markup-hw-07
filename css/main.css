@@ -89,21 +89,6 @@ button {
   text-align: center;
 }
 
-.hero-button {
-  align-self: center;
-  min-width: 216px;
-  padding: 10px 32px;
-  border: none;
-  border-radius: 6px;
-  color: var(--header-color);
-  background-color: var(--accent-color);
-  font-family: var(--primary-font);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-}
-
 .button-list {
   display: flex;
   justify-content: center;
@@ -462,11 +447,14 @@ button {
   align-items: center;
 }
 
+.page-nav__logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .logo {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
   color: #000000;
   font-family: var(--font-accent);
   font-weight: 700;
@@ -479,7 +467,7 @@ button {
   color: var(--accent-color);
 }
 
-.logo-accent {
+.logo_logo-accent_dark {
   color: var(--accent-color);
 }
 
@@ -612,6 +600,21 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   /* динамика */
+}
+
+.hero-section__button {
+  align-self: center;
+  min-width: 216px;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 6px;
+  color: var(--header-color);
+  background-color: var(--accent-color);
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 .benefits-section {

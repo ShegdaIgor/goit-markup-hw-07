@@ -11,11 +11,16 @@
     align-items: center;
 }
 
+// миксин для убирания маржинов
+.page-nav__logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+// миксин для убирания маржинов и других элементов, влияющих на геометрию.
+
 .logo {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
 
     color: #000000;
     font-family: var(--font-accent);
@@ -32,9 +37,11 @@
     }
 }
 
-.logo-accent {
+// модификатор блока
+.logo_logo-accent_dark {
     color: var(--accent-color);
 }
+// модификатор блока
 
 .page-nav {
     display: flex;
